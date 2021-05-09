@@ -1,5 +1,0 @@
-if game.PlaceId == 189707 then
-    game:GetService("TeleportService"):Teleport(3696971654, LocalPlayer)
-end
-
---simplified lmao enjoy
