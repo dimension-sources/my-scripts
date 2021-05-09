@@ -1,8 +1,8 @@
 getgenv().settings = {
-   TeamCheck = true;
-   Delay = 0;
-   Keybind = Enum.UserInputType.MouseButton2;
-   Enabled = true;
+   TeamCheck = true; --self explenatory
+   Delay = 0; --self explenatory
+   Keybind = Enum.UserInputType.MouseButton2; --you can change this to anything you want, you can change it to Enum.Keycode.letterHere if you want. too toggle use right click.
+   Enabled = true; --self explenatory
 }
 
 local Holding = false
