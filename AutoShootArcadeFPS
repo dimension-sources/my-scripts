@@ -1,6 +1,4 @@
-getgenv().aimbot = true;
-while getgenv().aimbot == true do
+game:GetService("RunService").RenderStepped:Connect(function()
     local args = {[1] = workspace.Target}
     game:GetService("ReplicatedStorage").NewRayCastEvent:FireServer(unpack(args))
-    wait()
 end
